@@ -1,0 +1,84 @@
+@CHARSET "EUC-KR";
+@import url(http://fonts.googleapis.com/css?family=Oswald:300);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+#navi {
+	font-family: 'Open Sans', 'Lato', 'Oswald', sans-serif;
+	color: #ffffff;
+	font-size: 1em;
+	background-color: #37383C;
+	width: 100%;
+	height: 90px;
+}
+
+#navi a {
+	display: inline;
+	text-align: center;
+	margin: 20px;
+	text-decoration: none;
+	color: #ffffff;
+}
+#navi a:hover {
+	color: #bbbbbb;
+}
+
+div#products_page {
+	margin-top: 20px;
+}
+
+div#pageWrap a {
+	display: inline;
+	text-align: center;
+	margin: 20px;
+}
+
+div#pageWrap ul {
+	list-style: none;
+	text-aling: center;
+}
+
+div#pageWrap ul li {
+	padding: 0 20px;
+}
+
+a#a_link {
+	text-decoration: none;
+	color: black;
+}
+
+a#a_link:hover {
+	text-decoration: underline;
+}
+
+div#pageWrap {
+	margin-top: 30px;
+	text-align: center;
+}
+
+a#pageCount {
+	/* 	margin-top:10px; */
+	text-decoration: none;
+	color: black;
+}
+
+div#page_below {
+	padding-top: 20px;
+	height: 34px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: silver;
+	text-align: center;
+}
+
+table#tb_main {
+	width: 1200px;
+	margin: 0 auto;
+	/* 	margin: 20px; padding: 20px; */
+	text-align: center;
+}
+
+td#product_cell {
+	text-align: center;
+	width: 340px
+}
